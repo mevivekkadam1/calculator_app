@@ -52,6 +52,7 @@ class CalcAppState extends State<CalcApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Calculator',
       home: Scaffold(
         backgroundColor: Colors.black,
